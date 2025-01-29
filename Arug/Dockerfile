@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:9
+FROM almalinux:${version:-8}
 # RUN cat /etc/*release 
 ARG course
 ARG Tranier
