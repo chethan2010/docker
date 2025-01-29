@@ -3,7 +3,8 @@ FROM almalinux:${version:-8}
 # RUN cat /etc/*release 
 ARG course
 ARG Tranier
-RUN echo "Trainer is: ${Tranier}"
-RUN echo "course is: ${course}"
+ENV Duration=129
+RUN echo "Trainer is: ${Tranier}","course is: ${course}","Duration:${Duration}"
 CMD [ "sleep","100" ]
 
+ 
