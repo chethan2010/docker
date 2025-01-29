@@ -1,4 +1,5 @@
 FROM  almalinux:9
-RUN adduser expense 
-USER expense
+RUN mkdir
+RUN Cd /app
+RUN pwd
 CMD ["sleep","100"]
