@@ -1,5 +1,5 @@
-ARG version
-FROM almalinux:${version}
+# ARG version
+FROM almalinux:10
 # RUN cat /etc/*release 
 ARG course=docker
 ARG Tranier=shivakumar 
